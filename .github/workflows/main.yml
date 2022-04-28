@@ -52,7 +52,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-	  
+
       - name: Move cache
         run: |
           rm -rf /tmp/.buildx-cache
