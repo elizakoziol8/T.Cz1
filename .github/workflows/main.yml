@@ -47,7 +47,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/elizakoziol8/tc.z1
+            ghcr.io/elizakoziol8/tc_z1
 
       - name: Move cache
         run: |
