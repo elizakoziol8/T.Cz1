@@ -54,7 +54,7 @@ jobs:
           push: true
           tags: |
             ek00/zadanie1:zad1githubactions
-            ghcr.io/elizakoziol8/zadanie1
+            ghcr.io/elizakoziol8/zad1githubactions
 
       - name: Move cache
         run: |
