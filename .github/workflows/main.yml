@@ -52,6 +52,9 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          tags: |
+            ek00/zadanie1:zad1githubactions
+            ghcr.io/elizakoziol8/zad1githubactions
 
       - name: Move cache
         run: |
