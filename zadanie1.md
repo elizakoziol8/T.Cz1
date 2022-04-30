@@ -15,11 +15,11 @@ Zad 3.
 a. zbudowanie obrazu kontenera<br>
 	<li>docker build -t one:5 . </li><br>
 b. uruchomienie kontenera na podstawie zbudowaego obrazu<br>
-	docker --run --name contone5 -p 5000:5000 one:5<br>
+	<li>docker --run --name contone5 -p 5000:5000 one:5</li><br>
 c. sprawdzenie logów<br>
-	docker logs contone5<br>
+	<li>docker logs contone5</li><br>
 d. sprawdzenie warstw obrazu<br>
-	docker history one:5<br>
+	<li>docker history one:5</li><br>
 
 <img src="img/okno_przeglądarki.png" />
 <img src="img/logi.png" />
@@ -34,8 +34,7 @@ Użyte instrukcje:<br>
 	docker buildx inspect --bootstrap<br>
 	docker buildx build -t ek00/zadanie1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .<br><br>
 	
-	DockerHub:<br>
-	<a href="https://hub.docker.com/repository/docker/ek00/zadanie1"><b>https://hub.docker.com/repository/docker/ek00/zadanie1</b></a><br>
+	<a href="https://hub.docker.com/repository/docker/ek00/zadanie1">DockerHub</a><br>
 
 <h2>Dodatek 1:<h2>	
 
