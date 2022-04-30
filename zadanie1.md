@@ -1,14 +1,14 @@
-<h1>Zadanie 1 z Technologii Chmurowych - Eliza Kozioł<h1>
+<h1>Zadanie 1 z Technologii Chmurowych - Eliza Kozioł<h1><br>
 
 <h2>Część podstawowa:<h2>
 
 Zad 1. 
 
-Aplikacja napisana w szkielecie Express.js znajduje się w katalogu "zadanie1". Wykorzystywany port to 5000.
+Aplikacja napisana w szkielecie Express.js znajduje się w katalogu "zadanie1". Wykorzystywany port to 5000.<br>
 
 Zad 2.
 
-Plik Dockerfile wraz z komentarzami umieszczony powyżej w obecnym repozytorium. 
+Plik Dockerfile wraz z komentarzami umieszczony powyżej w obecnym repozytorium. <br>
 
 Zad 3.
 
@@ -27,14 +27,14 @@ d. sprawdzenie warstw obrazu
 
 Zad 4.
 
-Użyte instrukcje:
-	sudo apt-get install -y qemu-user-static
-	docker buildx create --name taskbuilder
-	docker buildx use taskbuilder
-	docker buildx inspect --bootstrap
-	docker buildx build -t ek00/zadanie1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
+Użyte instrukcje:<br>
+	sudo apt-get install -y qemu-user-static<br>
+	docker buildx create --name taskbuilder<br>
+	docker buildx use taskbuilder<br>
+	docker buildx inspect --bootstrap<br>
+	docker buildx build -t ek00/zadanie1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .<br><br>
 	
-DockerHub: <a href="https://hub.docker.com/repository/docker/ek00/zadanie1">
+DockerHub: <a href="https://hub.docker.com/repository/docker/ek00/zadanie1"><br>
 
 <h2>Dodatek 1:<h2>	
 
