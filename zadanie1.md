@@ -34,7 +34,7 @@ Użyte instrukcje:<br>
 	docker buildx inspect --bootstrap<br>
 	docker buildx build -t ek00/zadanie1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .<br><br>
 	
-	[DockerHub][https://hub.docker.com/repository/docker/ek00/zadanie1] <br>
+	[DockerHub]:https://hub.docker.com/repository/docker/ek00/zadanie1
 
 <h2>Dodatek 1:<h2>	
 
