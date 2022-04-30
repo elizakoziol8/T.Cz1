@@ -38,15 +38,15 @@ DockerHub: <a href="https://hub.docker.com/repository/docker/ek00/zadanie1">
 
 <h2>Dodatek 1:<h2>	
 
-WORKFLOW:
+WORKFLOW: <br>
 
-Wybrany typ maszyny: ubuntu-latest
-"checkout" - jest to sprawdzenie, czy repozytorium jest dostępne dla workflow
-"docker/setup-qemu-action@v1" - instalacja qemu do wielu architektur
-"docker/setup-buildx-action@v1" - stworzenie i skonfigurowanie buildx'a potrzebnego do wielu architektur
-"actions/cache@v2" - umożliwia cache'owanie zależności, eksport cache'a
-"docker/login-action@v1" - logowanie do GitHub registry
-"docker/build-push-action@v2" - umożliwia zbudowanie i wypchnięcie obrazu za pomocą buildx'a
-"Move cache" - ustawienie eksportu cache'a i nadpisywanie starego nowym
+Wybrany typ maszyny: ubuntu-latest<br>
+"checkout" - jest to sprawdzenie, czy repozytorium jest dostępne dla workflow<br>
+"docker/setup-qemu-action@v1" - instalacja qemu do wielu architektur<br>
+"docker/setup-buildx-action@v1" - stworzenie i skonfigurowanie buildx'a potrzebnego do wielu architektur<br>
+"actions/cache@v2" - umożliwia cache'owanie zależności, eksport cache'a<br>
+"docker/login-action@v1" - logowanie do GitHub registry<br>
+"docker/build-push-action@v2" - umożliwia zbudowanie i wypchnięcie obrazu za pomocą buildx'a<br>
+"Move cache" - ustawienie eksportu cache'a i nadpisywanie starego nowym<br>
 
 <img src="img/cache.png" />
