@@ -13,7 +13,7 @@ Plik Dockerfile wraz z komentarzami umieszczony powyżej w obecnym repozytorium.
 Zad 3.
 
 a. zbudowanie obrazu kontenera<br>
-	docker build -t one:5 .<br>
+	<p>docker build -t one:5 . </p><br>
 b. uruchomienie kontenera na podstawie zbudowaego obrazu<br>
 	docker --run --name contone5 -p 5000:5000 one:5<br>
 c. sprawdzenie logów<br>
@@ -34,7 +34,7 @@ Użyte instrukcje:<br>
 	docker buildx inspect --bootstrap<br>
 	docker buildx build -t ek00/zadanie1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .<br><br>
 	
-	DockerHub: <a href="https://hub.docker.com/repository/docker/ek00/zadanie1"></a><br>
+	DockerHub: <a href="https://hub.docker.com/repository/docker/ek00/zadanie1"><b>https://hub.docker.com/repository/docker/ek00/zadanie1</b></a><br>
 
 <h2>Dodatek 1:<h2>	
 
