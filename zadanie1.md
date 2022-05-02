@@ -49,4 +49,7 @@ Wybrany typ maszyny: ubuntu-latest<br>
 "docker/build-push-action@v2" - umożliwia zbudowanie i wypchnięcie obrazu za pomocą buildx'a<br>
 "Move cache" - ustawienie eksportu cache'a i nadpisywanie starego nowym<br>
 
+-------
+Logowanie do repozytorium Github'a odbywa się za pomocą "docker/login-action". Uwierzytelnianie do ghcr.io odbywa się za pomocą GTIHUB_TOKEN, a nie jak w przypadku DockerHuba tokenów PAT. GITHUB_TOKEN jest automatycznie tworzony przez Githuba przy starcie każdego workflow. Jest to nowsza i bezpieczniejsza metoda uwierzytelniania.
+
 <img src="img/cache.png" />
